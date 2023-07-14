@@ -3,7 +3,7 @@
 Проэкт является примером построения API тестов.
 
 **Установка**
-
+- Необходим Python >= 3.10
 ```
 git clone https://github.com/SeniorK0tik/Sample_API_Testing
 pip install poetry
@@ -23,7 +23,7 @@ python -m pytest async_api -n auto --alluredir=./allure-results
 ```
 
 **Запуск allure**
-- Неободимо установить allure локально
+- Необходимо установить allure локально
 ```
 allure serve
 or
