@@ -1,0 +1,7 @@
+__pycache__/
+*.bkp
+*.dtmp
+venv/
+.venv/
+venv_*/
+.git
