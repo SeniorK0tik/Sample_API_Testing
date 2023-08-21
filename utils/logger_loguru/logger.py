@@ -3,7 +3,7 @@ import pathlib
 from loguru import logger
 
 p = pathlib.Path(__file__).parent
-debug_f = p.joinpath('logs', 'debug.jog')
+debug_f = p.joinpath('logs', 'debug.log')
 info_f = p.joinpath('logs', 'info.log')
 warning_f = p.joinpath('logs', 'warning.log')
 error_f = p.joinpath('logs', 'error.log')
