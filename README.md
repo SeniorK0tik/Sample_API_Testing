@@ -15,11 +15,11 @@ poetry config virtualenvs.create false && poetry install --no-interaction --no-a
 
 **Sync вариант(рекомендуется)**
 ```
-python -m pytest sync_api -n auto --alluredir=./allure-results
+python -m pytest -m sync_api -n auto --alluredir=./allure-results
 ```
 **Async вариант**
 ```
-python -m pytest async_api -n auto --alluredir=./allure-results
+python -m pytest -m async_api -n auto --alluredir=./allure-results
 ```
 
 **Запуск allure**
